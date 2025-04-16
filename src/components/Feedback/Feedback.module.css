@@ -1,0 +1,32 @@
+.textbox {
+    width: 450px;
+    display: flex;
+    gap:100px;
+    padding: 0px 25px;
+}
+.textboxLeft{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textboxRight{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.yet{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding-left: 25px;
+    
+    
+}

@@ -1,0 +1,8 @@
+.contentbox {
+  width: 800px;
+  padding: 40px;
+  margin: 60px auto;
+  background: rgb(148, 175, 153);
+  border: 3px solid rgb(4, 31, 9);
+  border-radius: 16px;
+}
