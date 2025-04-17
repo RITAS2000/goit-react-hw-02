@@ -12,13 +12,6 @@ export default function App() {
   });
 
   useEffect(() => {
-    const storedFeedbacks = localStorage.getItem('feedbacks');
-    if (storedFeedbacks) {
-      setFeedbacks(JSON.parse(storedFeedbacks));
-    }
-  }, []);
-
-  useEffect(() => {
     localStorage.setItem('feedbacks', JSON.stringify(feedbacks));
   }, [feedbacks]);
 
