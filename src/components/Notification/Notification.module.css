@@ -1,0 +1,17 @@
+.textbox {
+    width: 450px;
+    display: flex;
+    gap: 100px;
+    padding: 0px 25px;
+}
+.yet {
+    display: flex;
+    height: 78.64px;
+    align-items: center;
+    padding-left: 25px;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
